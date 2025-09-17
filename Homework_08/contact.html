@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>კონტაქტი | ჩვენი პორტალი</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">მთავარი</a></li>
+          <li><a href="news.html">სიახლეები</a></li>
+          <li><a href="contact.html" class="active">კონტაქტი</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <h1>დაგვიკავშირდით</h1>
+        <p>ჩვენ ყოველთვის მზად ვართ თქვენთან კომუნიკაციისთვის</p>
+      </section>
+
+      <section class="contact-content">
+        <div class="contact-info">
+          <h2>საკონტაქტო ინფორმაცია</h2>
+          <div class="contact-item">
+            <h3>მისამართი</h3>
+            <address>
+              <strong>სიახლეების პორტალი</strong><br />
+              თბილისი, საქართველო<br />
+              სიახლეების გამზირი 1<br />
+              საფოსტო კოდი: 0108
+            </address>
+          </div>
+
+          <div class="contact-item">
+            <h3>ტელეფონი</h3>
+            <p><a href="tel:+995322123456">+995 322 12 34 56</a></p>
+          </div>
+
+          <div class="contact-item">
+            <h3>ელექტრონული ფოსტა</h3>
+            <p><a href="mailto:info@newsportal.ge">info@newsportal.ge</a></p>
+          </div>
+
+          <img
+            src="https://www.shutterstock.com/image-photo/two-busy-business-women-young-600nw-2432308009.jpg"
+            alt="ჩვენი ოფისი"
+            class="office-image"
+          />
+        </div>
+
+        <div class="contact-form-section">
+          <h2>გამოგვიგზავნეთ შეტყობინება</h2>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">სახელი:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">ელ. ფოსტა:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">თემა:</label>
+              <select id="subject" name="subject">
+                <option value="general">ზოგადი კითხვა</option>
+                <option value="feedback">უკუკავშირი</option>
+                <option value="partnership">პარტნიორობა</option>
+                <option value="complaint">საჩივარი</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">შეტყობინება:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">გაგზავნა</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <h2>ჩვენი გუნდი</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <img
+              src="https://t4.ftcdn.net/jpg/02/24/86/95/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg"
+              alt="გიორგი კაკაბაძე"
+            />
+            <h3>გიორგი კაკაბაძე</h3>
+            <p><small>მთავარი რედაქტორი</small></p>
+          </div>
+          <div class="team-member">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSmXHHnxcJ0ROu_qdhfuB_EsmofNL_URVUKw&s"
+              alt="ნინო მესხიშვილი"
+            />
+            <h3>ნინო მესხიშვილი</h3>
+            <p><small>ჟურნალისტი</small></p>
+          </div>
+          <div class="team-member">
+            <img
+              src="https://img.freepik.com/free-photo/portrait-confident-young-businessman-with-his-arms-crossed_23-2148176206.jpg?semt=ais_incoming&w=740&q=80"
+              alt="ლევან პაპიძე"
+            />
+            <h3>ლევან პაპიძე</h3>
+            <p><small>ფოტოკორეპსონდენტი</small></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="working-hours">
+        <h2>სამუშაო საათები</h2>
+        <table class="hours-table">
+          <thead>
+            <tr>
+              <th>დღე</th>
+              <th>საათები</th>
+              <th>სტატუსი</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ორშაბათი - პარასკევი</td>
+              <td>09:00 - 18:00</td>
+              <td><span class="status open">ღიაა</span></td>
+            </tr>
+            <tr>
+              <td>შაბათი</td>
+              <td>10:00 - 16:00</td>
+              <td><span class="status open">ღიაა</span></td>
+            </tr>
+            <tr>
+              <td>კვირა</td>
+              <td>-</td>
+              <td><span class="status closed">დახურულია</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>&copy; 2025 სიახლეების პორტალი. ყველა უფლება დაცულია.</p>
+        <div class="footer-links">
+          <a href="contact.html">კონტაქტი</a>
+          <span>|</span>
+          <a href="#">კონფიდენციალურობა</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
